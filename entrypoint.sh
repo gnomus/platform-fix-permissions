@@ -2,4 +2,13 @@
 
 echo "Test"
 
-ls /data/soul/files/files
+mount
+
+ls /
+
+ls /files/
+echo `ls /files/`
+
+cat /files/test
+
+echo "Test 2"
