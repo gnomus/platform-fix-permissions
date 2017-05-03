@@ -6,4 +6,4 @@ VOLUME /data/soul/files/files/
 
 ADD entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT entrypoint.sh
+ENTRYPOINT /entrypoint.sh
